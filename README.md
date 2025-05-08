@@ -4,12 +4,14 @@ As part of my thesis, I was supposed to create an autonomous drone for vineyard 
 
 The remaining work on autonomous navigation and full system integration will be pursued as a hobby project in the future.
 
+
 ## Features
 
-- 🧭 **Visual-Inertial Odometry**: Estimates the camera's motion.
-- 🗺️ **Dense 3D Mapping**: Reconstructs the environment as a point cloud.
-- 🔁 **Loop Closure Support**: Detects revisited locations to reduce long-term drift (no correction currently).
-- 📦 **Dataset and Real-World Compatibility**: Works with datasets like EuRoC MAV or real drone recordings.
+- **Visual-Inertial Odometry**: Estimates the camera's motion.
+- **Good-Enough Metric Scale Estimation**: Integrates IMU data with monocular vision to resolve scale ambiguity and generate realistically scaled 3D maps
+- **Dense 3D Mapping**: Reconstructs the environment as a point cloud.
+- **Loop Closure Support**: Detects revisited locations to reduce long-term drift (no correction currently).
+- **Dataset and Real-World Compatibility**: Works with datasets like EuRoC MAV or real drone recordings.
 
 ## Limitations
 
@@ -24,9 +26,24 @@ The remaining work on autonomous navigation and full system integration will be 
 - Sensor fusion for imu and camera for accurate pose estimation
 - Extend the speed to atleast 10-15fps for realtime application
 
-<p align="center">
-  <img src="media/room_map.gif" width="45%" alt="EuRoC Mapping"/>
-  &nbsp;&nbsp;
-  <img src="media/room_video.gif" width="45%" alt="Tello Mapping"/>
-</p>
+
+## 📹 Mapping Demonstrations
+
+Here are some sample results showing the progress of the SLAM system during testing.
+
+### EuRoC MAV Dataset Mapping
+- Monocular visual-inertial SLAM tested on the EuRoC MAV dataset.
+- Partial 3D point cloud reconstruction with noticeable drift.
+
+  <p align="center">
+    <img src="media/ORB Keypoints_screenshot_30.04.2025.png" width="45%" alt="EuRoC Mapping single frame"/>
+    &nbsp;&nbsp;
+    <img src="media/Screencast from 04-30-2025 09:13:22 PM.webm" width="45%" alt="Tello Mapping"/>
+  </p>
+
+  <p align="center">
+    <img src="media/room_video.gif" width="45%" alt="EuRoC Mapping"/>
+    &nbsp;&nbsp;
+    <img src="media/room_map.gif" width="45%" alt="Tello Mapping"/>
+  </p>
   
