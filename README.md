@@ -36,9 +36,9 @@ Here are some sample results showing the progress of the SLAM system during test
 - Partial 3D point cloud reconstruction with noticeable drift.
 
   <p align="center">
-    <img src="media/ORB Keypoints_screenshot_30.04.2025.png" width="45%" alt="EuRoC Mapping single frame"/>
+    <img src="media/ORB Keypoints_frame.png" width="45%" alt="EuRoC Mapping single frame"/>
     &nbsp;&nbsp;
-    <img src="media/Screencast from 04-30-2025 09:13:22 PM.webm" width="45%" alt="Tello Mapping"/>
+    <img src="media/single_frame.gif" width="45%" alt="Tello Mapping"/>
   </p>
 
   <p align="center">
