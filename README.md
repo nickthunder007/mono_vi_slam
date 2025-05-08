@@ -23,4 +23,10 @@ The remaining work on autonomous navigation and full system integration will be 
 - Add pose graph optimization and map correction
 - Sensor fusion for imu and camera for accurate pose estimation
 - Extend the speed to atleast 10-15fps for realtime application
+
+<p align="center">
+  <img src="media/room_map.gif" width="45%" alt="EuRoC Mapping"/>
+  &nbsp;&nbsp;
+  <img src="media/room_video.gif" width="45%" alt="Tello Mapping"/>
+</p>
   
