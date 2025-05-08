@@ -41,7 +41,8 @@ Here are some sample results showing the progress of the SLAM system during test
     &nbsp;&nbsp;
     <img src="media/single_frame.gif" width="45%" alt="Tello Mapping"/>
   </p>
-  <p align="center">Single frame reconstruction</p>
+  <p align="center">Single frame reconstruction.</p>
+
 
 
   <p align="center">
@@ -49,7 +50,7 @@ Here are some sample results showing the progress of the SLAM system during test
     &nbsp;&nbsp;
     <img src="media/room_map.gif" width="45%" alt="Tello Mapping"/>
   </p>
-  <p align="center"> Partial mapping </p>
+  <p align="center"> Partial mapping. </p>
   
   
   
