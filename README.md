@@ -40,10 +40,15 @@ Here are some sample results showing the progress of the SLAM system during test
     &nbsp;&nbsp;
     <img src="media/single_frame.gif" width="45%" alt="Tello Mapping"/>
   </p>
+  Single frame reconstruction
+
 
   <p align="center">
     <img src="media/room_video.gif" width="45%" alt="EuRoC Mapping"/>
     &nbsp;&nbsp;
     <img src="media/room_map.gif" width="45%" alt="Tello Mapping"/>
   </p>
+  Partial mapping
+  
+  
   
